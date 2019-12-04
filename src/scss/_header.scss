@@ -38,9 +38,6 @@ header{
       font-size: 25px;
       color: #5f4b40;
     }
-    .btn-sign-up{
-      @include btn-secondary;
-    }
     span{
       padding: 0 10px;
     }
@@ -53,5 +50,18 @@ header{
     width: 50%;
   } img{
   width: 100%;
+  }
+}
+
+.btn-sign-up{
+  @include btn-secondary;
+}
+
+.sig-up{
+  text-align: center;
+  padding-top: 30px;
+  a:last-child{
+    margin-top: 15px;
+    display: block;
   }
 }

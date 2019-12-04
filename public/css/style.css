@@ -79,19 +79,6 @@ header nav ul li:last-child a:hover {
   color: #5f4b40;
 }
 
-#main-header .text-header .btn-sign-up {
-  padding: 5px 10px;
-  background-color: #30488f;
-  color: #fff;
-  border-radius: 5px;
-}
-
-#main-header .text-header .btn-sign-up:hover {
-  background-color: #243567;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-}
-
 #main-header .text-header span {
   padding: 0 10px;
 }
@@ -107,6 +94,29 @@ header nav ul li:last-child a:hover {
 
 #main-header img {
   width: 100%;
+}
+
+.btn-sign-up {
+  padding: 5px 10px;
+  background-color: #30488f;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-sign-up:hover {
+  background-color: #243567;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.sig-up {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sig-up a:last-child {
+  margin-top: 15px;
+  display: block;
 }
 
 .expl-app-item {
@@ -194,5 +204,58 @@ header nav ul li:last-child a:hover {
 
 .pd-25 {
   padding-left: 25%;
+}
+
+#know-us {
+  background-color: #ffe7d2;
+  padding-bottom: 100px;
+}
+
+#know-us h2 {
+  text-align: center;
+  padding: 30px 0;
+}
+
+#notepad {
+  width: 600px;
+  margin: auto;
+  padding: 10px 30px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+#notepad p {
+  margin: 20px 0;
+}
+
+#notepad #quote {
+  width: 45px;
+  position: absolute;
+  top: -23px;
+  left: 0;
+}
+
+#notepad #img-founder {
+  display: inline-block;
+}
+
+#notepad #img-founder img {
+  width: 40px;
+  padding-right: 5px;
+}
+
+#notepad #info-founder {
+  display: inline-block;
+}
+
+#notepad #info-founder span {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+#notepad #info-founder span:first-child {
+  color: #4469d6;
 }
 
