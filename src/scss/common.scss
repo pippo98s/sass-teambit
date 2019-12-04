@@ -1,0 +1,37 @@
+@mixin btn-primary {
+  padding: 5px;
+  border: solid 1px $link-color;
+  border-radius: 5px;
+  &:hover{
+    color: #fff;
+    background-color: $link-color;
+    transition-duration: $delay;
+  }
+}
+
+@mixin btn-secondary {
+  padding: 5px 10px;
+  background-color: $link-color;
+  color: #fff;
+  border-radius: 5px;
+  &:hover{
+    background-color: #243567;
+    transition-duration: $delay;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin space-between {
+  display: flex;
+  justify-content: space-between;
+}
