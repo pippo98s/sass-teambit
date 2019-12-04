@@ -109,16 +109,6 @@ header nav ul li:last-child a:hover {
           transition-duration: 0.4s;
 }
 
-.sig-up {
-  text-align: center;
-  padding-top: 30px;
-}
-
-.sig-up a:last-child {
-  margin-top: 15px;
-  display: block;
-}
-
 .expl-app-item {
   display: -webkit-box;
   display: flex;
@@ -208,7 +198,7 @@ header nav ul li:last-child a:hover {
 
 #know-us {
   background-color: #ffe7d2;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 
 #know-us h2 {
@@ -257,5 +247,66 @@ header nav ul li:last-child a:hover {
 
 #notepad #info-founder span:first-child {
   color: #4469d6;
+}
+
+.sig-up {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sig-up a:last-child {
+  margin-top: 15px;
+  display: block;
+}
+
+footer {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+footer #fo-left img {
+  width: 50px;
+  margin-right: 15px;
+}
+
+footer #fo-left p {
+  display: inline-block;
+  font-size: 20px;
+}
+
+footer #fo-left a {
+  color: #30488f;
+}
+
+footer #fo-left a:hover {
+  text-decoration: underline;
+}
+
+footer #fo-right {
+  display: -webkit-box;
+  display: flex;
+}
+
+footer #fo-right h4 {
+  margin-bottom: 15px;
+}
+
+footer #fo-right ul {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+footer #fo-right ul li {
+  padding: 8px 0;
+}
+
+footer #fo-right ul li a:hover {
+  color: #30488f;
 }
 
