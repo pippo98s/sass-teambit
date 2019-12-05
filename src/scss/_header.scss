@@ -12,7 +12,7 @@ header{
       li{
         padding: 0 20px;
       }
-      li:last-child{
+      .signin-main{
         padding: 0;
         a{
           color: $link-color;
@@ -22,6 +22,28 @@ header{
     }
   }
 }
+
+.dropdown{
+  position: relative;
+  &:hover .dropdown-item{
+    display: block;
+  }
+}
+
+.dropdown-item{
+  position: absolute;
+  left: 0px;
+  top: 47px;
+  display: none;
+  line-height: 25px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  li{
+    padding: 0 5px;
+  }
+}
+
 
 #main-header{
   @include flex-center;
@@ -55,13 +77,4 @@ header{
 
 .btn-sign-up{
   @include btn-secondary;
-}
-
-.sig-up{
-  text-align: center;
-  padding-top: 30px;
-  a:last-child{
-    margin-top: 15px;
-    display: block;
-  }
 }

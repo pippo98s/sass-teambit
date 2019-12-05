@@ -35,22 +35,45 @@ header nav ul li {
   padding: 0 20px;
 }
 
-header nav ul li:last-child {
+header nav ul .signin-main {
   padding: 0;
 }
 
-header nav ul li:last-child a {
+header nav ul .signin-main a {
   color: #30488f;
   padding: 5px;
   border: solid 1px #30488f;
   border-radius: 5px;
 }
 
-header nav ul li:last-child a:hover {
+header nav ul .signin-main a:hover {
   color: #fff;
   background-color: #30488f;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown-item {
+  display: block;
+}
+
+.dropdown-item {
+  position: absolute;
+  left: 0px;
+  top: 47px;
+  display: none;
+  line-height: 25px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.dropdown-item li {
+  padding: 0 5px;
 }
 
 #main-header {

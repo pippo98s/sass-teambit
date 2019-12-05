@@ -115,8 +115,8 @@ console.log("ciaio");
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Boolean esercizi\38-sass-teambit\src\js\script.js */"./src/js/script.js");
-module.exports = __webpack_require__(/*! D:\Boolean esercizi\38-sass-teambit\src\scss\style.scss */"./src/scss/style.scss");
+__webpack_require__(/*! D:\Boolean esercizi\front-end\38-sass-teambit\src\js\script.js */"./src/js/script.js");
+module.exports = __webpack_require__(/*! D:\Boolean esercizi\front-end\38-sass-teambit\src\scss\style.scss */"./src/scss/style.scss");
 
 
 /***/ })

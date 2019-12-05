@@ -1,0 +1,39 @@
+footer{
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  @include space-between;
+  #fo-left{
+    img{
+      width: 50px;
+      margin-right: 15px;
+    }
+    p{
+      display: inline-block;
+      font-size: 20px;
+    }
+    a{
+      color: $link-color;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  #fo-right{
+    display: flex;
+    h4{
+      margin-bottom: 15px;
+    }
+    ul{
+      list-style-type: none;
+      margin-right: 20px;
+      li{
+        padding: 8px 0;
+        a:hover{
+          color: $link-color;
+        }
+      }
+    }
+  }
+}
